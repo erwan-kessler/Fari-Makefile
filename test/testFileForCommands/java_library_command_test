@@ -1,0 +1,5 @@
+#Java sources
+J test1.java test2.java test3.java
+
+#We add a library
+B -cp mysql-connector-java-8.0.12.jar;

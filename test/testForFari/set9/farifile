@@ -1,0 +1,17 @@
+E MyAwesomeExecutable
+
+# Add Some headers
+H log.h
+H log_aux.h
+
+# The source
+C log.c
+C log_aux.c
+
+# Added some flag
+F -Wall
+F -g -O3
+F --param ssp-buffer-size=4
+
+# Math library
+B -lm

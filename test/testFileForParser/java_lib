@@ -1,0 +1,3 @@
+#Test for a parsing a file with a java lib
+J test1.java test2.java test3.java
+B -cp mysql-connector-java-8.0.12.jar;

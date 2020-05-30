@@ -1,0 +1,4 @@
+E test
+#this is a nasty comment
+#This one is even worse # Look i am out
+#Should this be accepted on a new line? -> H f.h # this is a comment

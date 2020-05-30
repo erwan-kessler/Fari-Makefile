@@ -1,0 +1,83 @@
+image: uppoints/docker-java-gcc
+
+build:
+  stage: build
+  script: make
+  artifacts:
+    paths:
+      - .
+
+test1:
+  stage: test
+  script: make test1
+  dependencies:
+    - build
+
+
+test2:
+  stage: test
+  script: make test2
+  dependencies:
+    - build
+
+
+test3:
+  stage: test
+  script: make test3
+  dependencies:
+    - build
+
+test3.1:
+  stage: test
+  script: make test3.1
+  dependencies:
+    - build
+
+test3.2:
+  stage: test
+  script: make test3.2
+  dependencies:
+    - build
+
+test3.3:
+  stage: test
+  script: make test3.3
+  dependencies:
+    - build
+
+#test3.4:
+#  stage: test
+#  script: make test3.4
+#  dependencies:
+#    - build
+
+test4:
+  stage: test
+  script: make test4
+  dependencies:
+    - build
+
+test6:
+  stage: test
+  script: make test6
+  dependencies:
+    - build
+
+test7:
+  stage: test
+  script: make test7
+  dependencies:
+    - build
+
+test8:
+  stage: test
+  script: make test8
+  dependencies:
+    - build
+
+
+test9:
+  stage: test
+  script: make test9
+  dependencies:
+    - build

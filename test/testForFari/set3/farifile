@@ -1,0 +1,13 @@
+E MyAwesomeExecutable
+
+H genres.h movie.h 
+H movies.h parser.h
+
+C genres.c movie.c
+C movies.c parser.c 
+C main.c
+
+F -std=gnu11 -Wall -pedantic -O3
+F -g
+F -fsanitize=address -fno-omit-frame-pointer
+

@@ -1,0 +1,19 @@
+E MyAwesomeExecutable
+
+# Add Some headers
+H log.h
+H log_aux.h
+
+# The source
+C log.c
+#Here we introduced an error in log_aux.c  but we will
+#add the corresponding .o to the folder so that compiling goes through thanks to continuation on error.
+C log_aux.c
+
+
+# Added some flag
+F -Wall
+F -g
+
+# Math library
+B -lm

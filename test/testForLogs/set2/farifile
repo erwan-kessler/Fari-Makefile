@@ -1,0 +1,12 @@
+E MyAwesomeExecutable
+
+# The source
+C a.c b.c
+
+C c.c
+
+H b.h a.h
+
+H c.h
+
+H h.h

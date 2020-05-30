@@ -1,0 +1,17 @@
+# Mon ex´ecutable s'appelle f
+E f
+
+# Il y a trois fichiers sources
+C f.c
+C f1.c f2.c
+
+# et un fichier d'ent^ete
+H f.h
+H h.h h1.h
+
+# j'utilise la biblioth`eque math´ematiques
+B -lm
+
+# et je souhaite ajouter le flag de debug
+F -g -w
+F -g3

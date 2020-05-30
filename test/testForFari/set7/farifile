@@ -1,0 +1,16 @@
+E MyAwesomeExecutable
+
+# Add Some headers
+H log.h
+H log_aux.h
+
+# The source
+# Here we will try to add all .c flies with globbing
+C src/*/*.c
+
+# Added some flag
+F -Wall
+F -g
+
+# Math library
+B -lm

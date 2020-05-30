@@ -1,0 +1,12 @@
+E TestMovie
+
+H genres.h movie.h
+
+C genres.c movie.c test_movie.c
+
+F -std=gnu11 -Wall -pedantic -O3
+F -g
+F -fsanitize=address -fno-omit-frame-pointer
+F -Iinclude -Llib -Wl,-rpath=lib
+
+B -lcriterion

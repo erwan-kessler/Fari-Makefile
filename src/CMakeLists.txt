@@ -1,0 +1,1 @@
+add_executable(fari ../highwayhash/highway.c Set.c Parser.c Checker.c Commands.c launcher.c ../cJson/cJSON.c json_logs.c main.c)

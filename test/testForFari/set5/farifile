@@ -1,0 +1,19 @@
+E MyAwesomeExecutable
+
+# Add Some headers
+H log.h
+H log_aux.h
+
+# The source
+C log.c
+# Adding a fake source to test continuation on error
+C fake.c
+C log_aux.c
+
+
+# Added some flag
+F -Wall
+F -g
+
+# Math library
+B -lm

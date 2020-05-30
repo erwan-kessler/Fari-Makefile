@@ -1,0 +1,11 @@
+E MyAwesomeExecutable
+
+# Add Some Linked Headers
+CH log.c log_aux.h log_aux.c
+
+# Added some flag
+F -Wall
+F -g
+
+# Math library
+B -lm

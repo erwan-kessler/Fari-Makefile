@@ -1,0 +1,13 @@
+E MyAwesomeExecutable
+
+# Add Some headers
+H log.h
+
+# The source
+C log.c
+
+# Added some flag
+F -Wall
+
+# Math library
+B -lm
